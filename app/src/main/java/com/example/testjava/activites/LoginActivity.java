@@ -41,7 +41,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         workingWithRetrofit();
 
 
-        Toast.makeText(this, "AHMAD BRANCH", Toast.LENGTH_SHORT).show();
+        //log
 
 
 
