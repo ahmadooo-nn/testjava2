@@ -36,16 +36,13 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.activity_login);
         init();
 
-        new Async("5").execute("ahmad","ali","mohamad","rahim");
+        new Async("5").execute("ahmad", "ali", "mohamad", "rahim");
 
         workingWithRetrofit();
-        
-          Toast.makeText(LoginActivity.this, "test", Toast.LENGTH_SHORT).show();
-        Toast.makeText(LoginActivity.this, "test", Toast.LENGTH_SHORT).show();
-        
-            Toast.makeText(LoginActivity.this, "test", Toast.LENGTH_SHORT).show();
-        Toast.makeText(LoginActivity.this, "test", Toast.LENGTH_SHORT).show();
-        Toast.makeText(LoginActivity.this, "test", Toast.LENGTH_SHORT).show();
+
+
+        Toast.makeText(this, "bug fix", Toast.LENGTH_SHORT).show();
+
 
 /*        Button button1 = findViewById(R.id.btn_login);
         Button button2 =  findViewById(R.id.btn_register);
