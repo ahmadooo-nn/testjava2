@@ -41,7 +41,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         workingWithRetrofit();
 
 
-        Toast.makeText(this, "bug fix", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "AHMAD BRANCH", Toast.LENGTH_SHORT).show();
+
+
+
 
 
 /*        Button button1 = findViewById(R.id.btn_login);
