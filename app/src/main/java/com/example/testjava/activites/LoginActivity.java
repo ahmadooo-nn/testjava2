@@ -1,7 +1,5 @@
 package com.example.testjava.activites;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -11,10 +9,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.testjava.R;
-import com.example.testjava.learn.Internet;
 import com.example.testjava.myInterface.MyEndPoint;
-import com.example.testjava.myInterface.ReceivedDataListener;
 
 import java.io.IOException;
 
@@ -184,8 +182,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         @Override
         protected void onPostExecute(String received) {
             super.onPostExecute(received);
-            Log.i(TAG, "onPostExecute: "+received);
-            Toast.makeText(LoginActivity.this,received , Toast.LENGTH_SHORT).show();
+            Log.i(TAG, "onPostExecute: " + received);
+            Toast.makeText(LoginActivity.this, received + " changed", Toast.LENGTH_SHORT).show();
             //progress bar dismiss
         }
 
